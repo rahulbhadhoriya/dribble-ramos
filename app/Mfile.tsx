@@ -5,7 +5,7 @@ export default function Mfile() {
         <div className="px-16">
           <div className="text-9xl  text-start">
             Maximize{' '}
-            <span className="text-gray-300 mr-4">efficiency </span>
+            <span className="text-gray-300 mr-4">efficiency</span>
           </div>
           <div className="text-9xl  text-start">
             with our intuitive
