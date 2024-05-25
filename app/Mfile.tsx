@@ -4,9 +4,12 @@ export default function Mfile() {
       <div className="bg-white mx-16 ">
         <div className="px-16">
           <div className="text-9xl  text-start">
-            Maximize <span className="text-gray-300 mr-4">efficiency</span>
+            Maximize{' '}
+            <span className="text-gray-300 mr-4">efficiency</span>
           </div>
-          <div className="text-9xl  text-start">with our intuitive</div>
+          <div className="text-9xl  text-start">
+            with our intuitive
+          </div>
         </div>
         <div className="px-[4rem] flex justify-between mb-[2rem] mt-8">
           <div className="flex justify-center">
@@ -53,10 +56,10 @@ export default function Mfile() {
             data-aos-duration="500"
             data-aos-easing="linear"
           >
-            Explore traffic source, page behaviour,conversation and more to gain
-            deep insight
-            <br /> into your audience.With us, your business doesn't just adopt-
-            it evolves.
+            Explore traffic source, page behaviour,conversation and
+            more to gain deep insight
+            <br /> into your audience.With us, your business
+            doesn`&lsquo;`t just adopt- it evolves.
           </div>
           <div className="flex justify-between">
             <button
@@ -131,7 +134,9 @@ export default function Mfile() {
             </div>
             <div className="w-3/5">pic</div>
           </div>
-          <div className="text-[22rem] text-center text-red-500 ">Ramos</div>
+          <div className="text-[22rem] text-center text-red-500 ">
+            Ramos
+          </div>
         </div>
       </div>
     </div>
