@@ -18,6 +18,7 @@ export default function Headline() {
             className="bg-slate-200 rounded-full w-[120px] h-[120px] flex items-center justify-center"
             data-aos="rotate-anim3"
             data-aos-duration="1000"
+            data-aos-delay="500"
             data-aos-easing="ease-in-out"
           >
             <FontAwesomeIcon
@@ -30,6 +31,7 @@ export default function Headline() {
             className="bg-red-500 rounded-full w-[120px] h-[120px] relative flex items-center justify-center right-3"
             data-aos="rotate-anim3"
             data-aos-duration="1000"
+            data-aos-delay="500"
             data-aos-easing="ease-in-out"
           >
             <FontAwesomeIcon
@@ -42,6 +44,7 @@ export default function Headline() {
         <div
           data-aos="fade"
           data-aos-duration="2000"
+          data-aos-delay="500"
           data-aos-easing="ease-in-out"
         >
           Analytics
@@ -50,6 +53,7 @@ export default function Headline() {
           className="absolute text-xs top-4 right-0"
           data-aos="fade"
           data-aos-duration="2000"
+          data-aos-delay="500"
           data-aos-easing="ease-in-out"
         >
           <div className="relative h-[150px] w-[350px]">
@@ -74,6 +78,7 @@ export default function Headline() {
         className="flex gap-5"
         data-aos="fade"
         data-aos-duration="2000"
+        data-aos-delay="500"
         data-aos-easing="ease-in-out"
       >
         that
@@ -84,6 +89,7 @@ export default function Headline() {
         className="flex justify-end"
         data-aos="fade"
         data-aos-duration="2000"
+        data-aos-delay="500"
         data-aos-easing="ease-in-out"
       >
         shape
@@ -91,6 +97,7 @@ export default function Headline() {
           className="bg-yellow-400 rounded-full w-[120px] h-[120px] flex items-center justify-center mx-3 relative top-1"
           data-aos="rotate-anim3"
           data-aos-duration="1000"
+          data-aos-delay="500"
           data-aos-easing="ease-in-out"
         >
           <FontAwesomeIcon
@@ -101,12 +108,6 @@ export default function Headline() {
         </span>
         the future
       </div>
-      {/* <div className="h-[120px] w-[280px] bg-slate-200 mt-[30px] rounded-[20px]">
-    image
-  </div> */}
-
-      {/* <div className="h-[180px] w-[180px] bg-red-300">image</div> */}
-      {/* <img src="" alt="laptop" /> */}
     </section>
   );
 }

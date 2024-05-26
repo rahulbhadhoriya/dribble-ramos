@@ -25,11 +25,12 @@ export default function Navigation() {
     ));
   };
   return (
-    <header className="bg-black p-2 text-white flex items-center justify-between items-center m-[10px] rounded-2xl">
+    <header className="bg-black p-2 text-white flex items-center justify-between m-[10px] rounded-2xl">
       <div
         className="font-bold pl-5 flex items-center gap-1"
         data-aos="fade-up"
         data-aos-duration={DefaultTextAnimationTime}
+        data-aos-delay="500"
         data-aos-easing="ease-in-out"
       >
         <FontAwesomeIcon icon={faLink} size="xs" />
@@ -42,6 +43,7 @@ export default function Navigation() {
         className="bg-white text-x text-black py-2 px-4 rounded-xl mr-1"
         data-aos="fade-up"
         data-aos-duration={DefaultTextAnimationTime}
+        data-aos-delay="500"
         data-aos-easing="ease-in-out"
         data-aos-offset="1"
       >

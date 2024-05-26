@@ -1,8 +1,6 @@
 'use client';
 import { useEffect } from 'react';
 import Main from './Main';
-import Lastpaage from './Lastpaage';
-import Mfile from './Mfile';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Navigation from './Navigation';
@@ -13,6 +11,7 @@ import './index.css';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 // Prevent fontawesome from adding its CSS since we did it manually above:
 import { config } from '@fortawesome/fontawesome-svg-core';
+import Footer from './Footer';
 config.autoAddCss = false; /* eslint-disable import/first */
 
 export default function Home() {
@@ -21,11 +20,10 @@ export default function Home() {
   }, []);
 
   return (
-    <main>
+    <>
       <Navigation />
       <Main />
-      <Mfile />
-      <Lastpaage />
-    </main>
+      <Footer />
+    </>
   );
 }
